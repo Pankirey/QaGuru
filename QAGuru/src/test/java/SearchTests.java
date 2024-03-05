@@ -21,5 +21,5 @@ public class SearchTests {
     public void sds() {
         LocalDate localDate = LocalDate.parse("05.03.2024", DateTimeFormatter.ofPattern("dd.MM.yyyy"));
         Assertions.assertEquals(5,localDate.getDayOfMonth());
-    }//
+    }//.
 }
